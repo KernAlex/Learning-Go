@@ -34,3 +34,5 @@ func (l LinkList) String() string{
 	return strings.Trim(strings.Join(strings.Fields(fmt.Sprint(s)), "->"), "[]")
 }
 
+
+
